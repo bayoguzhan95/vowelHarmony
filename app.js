@@ -1,6 +1,9 @@
 let Major = 0;
 let Minor = 0;
 
+var majorLetter = ["a", "ı", "o", "u"];
+var minorLetter = ["e", "i", "ö", "ü"];
+
 const majorVowelHarmony = () => {
   const input = document.getElementById("input").value;
 
@@ -8,9 +11,7 @@ const majorVowelHarmony = () => {
 
   splitLetter.forEach(function (x) {
       
-    let majorLetter = ["a", "ı", "o", "u"];
-
-    let minorLetter = ["e", "i", "ö", "ü"];
+    
 
     majorLetter.forEach(
       function (a) {
